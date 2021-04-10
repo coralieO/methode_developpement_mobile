@@ -53,6 +53,7 @@ class InputButton extends StatelessWidget {
 
 class _CalculatorState extends State<Calculator> {
   
+  
 static const List<List<String>> grid = <List<String>>[
  <String>["7", "8", "9", "-"],
  <String>["4", "5", "6", "*"],
@@ -94,7 +95,9 @@ print('On Click $value');
  }
 
  // Force l'interface à se redessiner
- setState(() {});
+ setState(() {
+   
+ });
 }
 
 void onNewDigit(String digit) {
